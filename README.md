@@ -6,3 +6,4 @@
 		+ left,right,up,down: move
 		+ C : shoot
 		+ X : jump
+demo https://www.youtube.com/watch?v=YplGN75XjMo
