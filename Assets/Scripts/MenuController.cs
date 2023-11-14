@@ -9,7 +9,7 @@ public class MenuController : MonoBehaviour
     private bool m_isReady = false;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return) && !m_isReady)
+        if (Input.anyKey && !m_isReady)
         {
             m_isReady = true;
             Rigidbody2D r2d = GetComponent<Rigidbody2D>();

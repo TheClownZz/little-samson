@@ -1,17 +1,33 @@
 fileFormatVersion: 2
 guid: e801bb443bb93444e97791d697bf990c
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: mouse-vector-keyboard-4_6
-    21300002: mouse-vector-keyboard-4_8
-    21300004: mouse-vector-keyboard-4_16
-    21300006: mouse-vector-keyboard-4_38
-    21300008: mouse-vector-keyboard-4_39
-    21300010: mouse-vector-keyboard-4_40
-    21300012: mouse-vector-keyboard-4_41
-    21300014: mouse-vector-keyboard-4_56
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: mouse-vector-keyboard-4_6
+  - first:
+      213: 21300002
+    second: mouse-vector-keyboard-4_8
+  - first:
+      213: 21300004
+    second: mouse-vector-keyboard-4_16
+  - first:
+      213: 21300006
+    second: mouse-vector-keyboard-4_38
+  - first:
+      213: 21300008
+    second: mouse-vector-keyboard-4_39
+  - first:
+      213: 21300010
+    second: mouse-vector-keyboard-4_40
+  - first:
+      213: 21300012
+    second: mouse-vector-keyboard-4_41
+  - first:
+      213: 21300014
+    second: mouse-vector-keyboard-4_56
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -28,9 +44,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -39,9 +58,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -62,11 +81,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 8192
     resizeAlgorithm: 0
@@ -76,8 +101,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 8192
     resizeAlgorithm: 0
@@ -87,8 +114,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 8192
     resizeAlgorithm: 0
@@ -98,7 +127,35 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -118,6 +175,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0c0f9a8d6c59e584699fe88ef98802bc
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -138,6 +196,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c681e598740df294d85f63184345b228
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -158,6 +217,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 115a3a644aa39404aa20a05b06f9c2c5
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -178,6 +238,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fb7dc638a23a7244987ccbc6de1f55d2
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -198,6 +259,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 82c4e0e058bdf6b489c30b89793d4137
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -218,6 +280,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 906476ff346ed824796169f4ec487016
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -238,6 +301,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 5e5024946f606c24f9afc98749a06eab
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -258,6 +322,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 05c9809f6f147024badccf8257c4cd41
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -266,13 +331,23 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 838e378671a6ccb4fb48c26e00b12d6c
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    nameFileIdTable:
+      mouse-vector-keyboard-4_16: 21300004
+      mouse-vector-keyboard-4_38: 21300006
+      mouse-vector-keyboard-4_39: 21300008
+      mouse-vector-keyboard-4_40: 21300010
+      mouse-vector-keyboard-4_41: 21300012
+      mouse-vector-keyboard-4_56: 21300014
+      mouse-vector-keyboard-4_6: 21300000
+      mouse-vector-keyboard-4_8: 21300002
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

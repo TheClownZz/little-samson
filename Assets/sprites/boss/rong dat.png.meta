@@ -1,24 +1,54 @@
 fileFormatVersion: 2
 guid: 9d23e9620c9d2cb4f9cac72bb06e0b37
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: rong dat_0
-    21300002: rong dat_1
-    21300004: rong dat_2
-    21300006: rong dat_3
-    21300008: rong dat_4
-    21300010: rong dat_5
-    21300012: rong dat_6
-    21300014: rong dat_7
-    21300016: rong dat_8
-    21300018: rong dat_9
-    21300020: rong dat_10
-    21300022: rong dat_11
-    21300024: rong dat_12
-    21300026: rong dat_13
-    21300028: rong dat_14
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: rong dat_0
+  - first:
+      213: 21300002
+    second: rong dat_1
+  - first:
+      213: 21300004
+    second: rong dat_2
+  - first:
+      213: 21300006
+    second: rong dat_3
+  - first:
+      213: 21300008
+    second: rong dat_4
+  - first:
+      213: 21300010
+    second: rong dat_5
+  - first:
+      213: 21300012
+    second: rong dat_6
+  - first:
+      213: 21300014
+    second: rong dat_7
+  - first:
+      213: 21300016
+    second: rong dat_8
+  - first:
+      213: 21300018
+    second: rong dat_9
+  - first:
+      213: 21300020
+    second: rong dat_10
+  - first:
+      213: 21300022
+    second: rong dat_11
+  - first:
+      213: 21300024
+    second: rong dat_12
+  - first:
+      213: 21300026
+    second: rong dat_13
+  - first:
+      213: 21300028
+    second: rong dat_14
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -35,9 +65,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -46,9 +79,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -69,11 +102,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 8192
     resizeAlgorithm: 0
@@ -83,8 +122,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 8192
     resizeAlgorithm: 0
@@ -94,8 +135,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 8192
     resizeAlgorithm: 0
@@ -105,7 +148,35 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -125,6 +196,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ea2b190b9ef15314bb630d0e7eec48eb
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -145,6 +217,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 31a058d41a53ba044b8f63321c8ad3bb
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -165,6 +238,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ad0eb0f22ed839c468916220644a9183
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -185,6 +259,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c3947641697f7074c9e6ed9f0f9e1273
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -205,6 +280,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: dd7b95ac5fcc2cf479061560dac5d205
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -225,6 +301,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2a9eb5436cd57c141a5077212181a9ea
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -245,6 +322,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 251a3b19902fde04cb3001df7f196465
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -265,6 +343,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0ed0526dbe16a5a49914d59d62092d0f
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -285,6 +364,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b0257345d1dcaed429d91305f2b2709f
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -305,6 +385,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b92d08ac2df5fa546a0fe613a7221219
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -325,6 +406,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fd3c3d07ad9cb264f92de207d036cc33
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
@@ -345,6 +427,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: cb30ce5fd5c27194d844a11f83dfc3e5
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
@@ -365,6 +448,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 528dd068ac2f49b41b89b4255bbbbed5
+      internalID: 21300024
       vertices: []
       indices: 
       edges: []
@@ -385,6 +469,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8e3b8a58bdeada44b90727f436f53a58
+      internalID: 21300026
       vertices: []
       indices: 
       edges: []
@@ -405,6 +490,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fcf65b1dd47170349b624d95cdfd4010
+      internalID: 21300028
       vertices: []
       indices: 
       edges: []
@@ -413,13 +499,30 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 413ca82225ebe214db5a2b794810b0ed
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    nameFileIdTable:
+      rong dat_0: 21300000
+      rong dat_1: 21300002
+      rong dat_10: 21300020
+      rong dat_11: 21300022
+      rong dat_12: 21300024
+      rong dat_13: 21300026
+      rong dat_14: 21300028
+      rong dat_2: 21300004
+      rong dat_3: 21300006
+      rong dat_4: 21300008
+      rong dat_5: 21300010
+      rong dat_6: 21300012
+      rong dat_7: 21300014
+      rong dat_8: 21300016
+      rong dat_9: 21300018
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
